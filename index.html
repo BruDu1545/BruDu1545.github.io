@@ -1,302 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/logoEron-removebg-preview.png" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Eron Domingues - EFMN</title>
-  </head>
-  <header>
-    <h1 class="titulo_header">Eron Domingues</h1>
-    <nav class="barra_botoes">
-      <ul>
-        <li>
-          <a href="index.html">Pagina inicial</a>
-        </li>
-        <li><a href="sobre.html">Sobre Eron</a></li>
-        <li>
-          <a href="#Area_aluno_TP">Area do aluno</a>
-        </li>
-        <a href="index.html"
-          ><img
-            src="img/logoEron-removebg-preview.png"
-            alt="Logo do Eron Domingues"
-            height="100px"
-        /></a>
-        <li>
-          <a href="projetos_escolares.html">Projetos escolares</a>
-        </li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="Matricula.html">Matricula</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <body>
-    <div class="espaco_imagem_texto">
-      <img
-        class="Imagem_do_texto"
-        src="img/imagens_do_colegio/faxada_eron.png"
-      />
-      <p class="texto_da_imagem">
-        O Colégio Eron Domingues, o maior e mais antigo da NRE de Toledo,
-        destaca-se pela excelência educacional. Suas modernas instalações e
-        corpo docente experiente proporcionam um ambiente ideal para um ensino
-        de qualidade. Os alunos desfrutam de amplo suporte social, laboratórios
-        bem equipados e participam de estágios e programas educacionais
-        renomados. Priorizando o conforto dos alunos, a escola oferece espaços
-        amplos e diversos recursos, incluindo biblioteca, reprografia, cantina e
-        cozinha. Adaptada para atender às necessidades dos alunos com
-        deficiência, o Colégio Eron Domingues participa ativamente de projetos
-        estaduais e nacionais para aprimorar sua oferta educacional. Em suma,
-        compromete-se a agregar o nome de cada aluno ao seu legado, cumprindo
-        sua missão de proporcionar uma educação de excelência.
-      </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="author" href="Bruno C Adamczyk">
+    <title>Site pessoal - Bruno C Adamczyk</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <span class="fs-4">Bruno C. Adamczyk</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="objetivos.html" class="nav-link">Objetivos</a></li>
+                <li class="nav-item"><a href="hobbyes.html" class="nav-link">hobbies</a></li>
+                <li class="nav-item"><a href="experiencia.html" class="nav-link">Experiencia</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="px-4 pt-5 my-5 text-center border-bottom">
+                <h1 class="display-4 fw-bold text-body-emphasis">Conheça mais sobre min</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">
+                        Nas proximas paginas voce vera um breve resumo sobre minha pessoa,
+                        conhecera meus objetivos, minhas experiencias, minha vivenciam, e minhas realizações
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                        <a href="#custom-cards">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">O que sera visto</button>
+                        </a>
+                        <a class="link-underline link-underline-opacity-0" href="./contato.html#presenceForm">
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contato</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="pb-2 border-bottom">Informações do site</h2>
+
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card h-100 overflow-hidden text-bg-primary rounded-4 shadow-lg">
+                            <div class="d-flex flex-column h-100 p-5">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Meus objetivos</h3>
+                                <a href="./objetivos.html" class="text-white mt-auto">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 overflow-hidden text-bg-warning rounded-4 shadow-lg">
+                            <div class="d-flex flex-column h-100 p-5">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Minhas experiências</h3>
+                                <a href="./experiencia.html" class="text-black mt-auto">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                            <div class="d-flex flex-column h-100 p-5">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hobbies</h3>
+                                <a href="./hobbyes.html" class="text-white mt-auto">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-4 py-5">
+                <h2 class="pb-2 border-bottom">Sobre min</h2>
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                    <div class="col d-flex flex-column align-items-start gap-2">
+                        <h2 class="fw-bold text-body-emphasis">Bruno Carletto Adamczyk</h2>
+                        <p class="text-body-secondary">
+                            Sou um jovem programador que anseia por anvanços e trabalho, adoro oq eu faço hoje e planejo
+                            viver disso
+                        </p>
+                        <a href="https://br.linkedin.com/in/bruno-carletto-adamczyk-493b31311"
+                            class="btn btn-primary btn-lg">Me conheca nas redes sociais</a>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-sm-2 g-4">
+                            <div class="col d-flex flex-column gap-2">
+                                <div style="width: auto; height: 25px;"
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">Idade</h4>
+                                <p class="text-body-secondary">
+                                    18 anos completos em Janeiro.
+                                </p>
+                            </div>
+                            <div class="col d-flex flex-column gap-2">
+                                <div style="width: auto; height: 25px;"
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-4 rounded-3">
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">Nacionalidade</h4>
+                                <p class="text-body-secondary">Brasileiro, de Marechal C. Rondon - PR.</p>
+                            </div>
+                            <div class="col d-flex flex-column gap-2">
+                                <div style="width: auto; height: 25px;"
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-warning bg-gradient fs-4 rounded-3">
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">Posicionamento</h4>
+                                <p class="text-body-secondary">
+                                    Nao gosto do uso exessivo da IA, e prefiro a moda antiga.
+                                </p>
+                            </div>
+                            <div class="col d-flex flex-column gap-2">
+                                <div style="width: auto; height: 25px;"
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-danger bg-gradient fs-4 rounded-3">
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">Emprego</h4>
+                                <p class="text-body-secondary">
+                                    Hoje eu atuo como coordenador de TI, e dev freelancer nas horas vagas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <h1>Projetos Online</h1>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height: 25rem;">
+                        <div class="bg-primary bg-gradient rounded" style="width: 100%; height: 100%;"></div>
+
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                                <h1>Orion Topografia - Marechal C Rondon - PR.</h1>
+                                <p class="opacity-75">Empresa muito famosa e conhecida na regiao pelo seus serviços de topografia.</p>
+                                <img src="./img/orion.png" style="width: 250px; height: auto;" alt="" class="mb-2">
+                                <p>
+                                    <a class="btn btn-lg btn-warning bg-gradient" href="https://www.oriontopografia.com.br/">Conheça a empresa</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="height: 25rem;">
+                        <div class="bg-warning bg-gradient rounded" style="width: 100%; height: 100%;"></div>
+
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1 class="text-black">Urbanizy Street - Marechal C Rondon - PR.</h1>
+                                <p class="text-black">Start-up moderna de tenis e camisetas, conhecida e com um potencial imenço pela frente.</p>
+                                <img src="./img/urbanizy.png" style="width: 250px; height: auto;" alt="" class="mb-2">
+                                <p><a class="btn btn-lg btn-dark" href="https://urbanizystreet.com">Conheça a empresa</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="height: 25rem;">
+                        <div class="rounded" style="width: 100%; height: 100%; background-color: #ff6900;"></div>
+
+                        <div class="container">
+                            <div class="carousel-caption text-end">
+                                <h1 style="color: #2c2b31;">Martin Luther - Marechal C Rondon - PR.</h1>
+                                <p style="color: #2c2b31;">A escola mais renomiada da cidade e uma das melhores do Paraná.</p>
+                                <img src="./img/martin.png" style="width: 200px; height: auto;" class="mb-2">
+                                <p><a class="btn btn-lg btn-warning" href="https://martinluther.com.br">Conheça a empresa</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </main>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2026 Bruno C. Adamczyk</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://instagram.com/bruno._.carletto" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://br.linkedin.com/in/bruno-carletto-adamczyk-493b31311"
+                        aria-label="Linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
     </div>
-    <!--imagem_com_texto-->
-    <br /><br />
-    <div class="noticias_colegio">
-      <div id="Noticia1">
-        <h1>Curso Zero ao APP para Alunos do Eron Domingues</h1>
-        <img src="img/imagens__Diversas/Noticias/Curso_zeroApp.jpg" height="200px" alt="" />
-        <p>
-          O curso "Do Zero ao APP" para alunos de Desenvolvimento de Sistemas
-          foi concluído<br />
-          em 07 de dezembro de 2023, resultado de uma colaboração entre o Rotary
-          Club<br />
-          de Marechal Cândido Rondon 25 de julho, a Faculdade Isepe Marechal
-          Cândido Rondon<br />
-          e o Colégio Estadual Eron Domingues. Organizado por Carlos Erig, com o
-          apoio de Carlos Becker,<br />
-          Gustavo Giopato Manfredi e Deividy Alisom Johann da Silva, o curso foi
-          elogiado por seu impacto<br />
-          educacional positivo.
-        </p>
-      </div>
-      <!--Noticia1-->
-      <div id="Noticia2">
-        <h1>O Painel de Profissões</h1>
-        <img src="img/imagens__Diversas/Noticias/PaineldeProfissoes.jpg" height="200px" alt="">
-        <p>
-          Evento para os alunos do novo Ensino Médio, proporcionando a
-          oportunidade<br />
-          de explorar diferentes carreiras em alta no mercado de trabalho. Com o
-          objetivo<br />
-          de auxiliar na escolha profissional, o evento permitiu aos estudantes
-          interagir com<br />
-          profissionais, conhecer suas experiências e receber orientações sobre
-          caminhos<br />
-          acadêmicos. Além disso, o Painel também contribuiu para aumentar a
-          visibilidade<br />
-          do colégio, destacando seu compromisso com uma educação preparatória
-          para<br />
-          o futuro dos alunos.
-        </p>
-      </div>
-      <!--Noticia2-->
-    </div>
-    <!--noticias_colegio-->
-    <div class="opinioes_alunos">
-      <h3>Opiniões de alunos</h3>
-      <div id="opinioes">
-        <div>
-          <p>
-            "O Eron é um colégio da hora! Tem muita resenha, <br />
-            mas também oferece um bom ensino, tanto no ensino médio e
-            profissionalizante<br />
-            quanto no fundamental."
-          </p>
-        </div>
-        <div>
-          <p>
-            "O Eron é top demais, mano! Tô ligado que tem uns <br />rolês irados
-            por lá, mas o ensino é show de bola, sério!"
-          </p>
-        </div>
-        <div>
-          <p>
-            "Sério, o Eron é daqueles lugares que dá gosto de ir<br />
-            todo dia. A vibe é maneira e os professores tão sempre na ativa<br />
-            pra ajudar."
-          </p>
-        </div>
-        <div>
-          <p>
-            "Cara, o Eron é tipo o lugar onde o aprendizado se<br />
-            mistura com a diversão, saca? Tipo, você aprende pra caramba, mas<br />
-            sem aquela vibe de escola chata, é sensacional!"
-          </p>
-        </div>
-        <div>
-          <p>
-            "Não tem nem o que falar, o Eron é um rolezão da educação!<br />
-            Tá ligado que é um lugar onde você vai querer tá, porque<br />
-            tem ensino de qualidade e ainda rola umas atividades massa demais."
-          </p>
-        </div>
-      </div>
-      <!--opinioes-->
-    </div>
-    <!--opinioes_alunos-->
-    <div class="area_do_aluno_sec">
-      <h3 id="Area_aluno_TP">O que é Área do aluno?</h3>
-      <p>
-        A área do aluno do Colégio Eron Domingues é uma página dedicada a
-        fornecer informações importantes, como regras e regulamentos escolares,
-        além de oferecer dicas valiosas para que os alunos alcancem sucesso
-        tanto em seus estudos quanto em suas relações com amigos e professores.
-      </p>
-      <h3 class="acessos_links">
-        <a href="areaDoAluno.html">Acessar área do aluno</a>
-      </h3>
-    </div>
-    <!--area_do_aluno_sec-->
-    <div class="projetos_escolares_sec">
-      <h2>Projetos no colegio</h2>
-      <h3>
-        Projetos e Jogos Interclasses durante a Semana de Conselho de Classe
-      </h3>
-      <p>
-        Durante a Semana de Conselho de Classe, o Colégio Eron Domingues promove
-        uma série de projetos e jogos esportivos entre as séries. Os alunos
-        participam de competições de vôlei, caçador, futsal, e outros,
-        promovendo integração, trabalho em equipe e diversão.
-      </p>
-      <div class="futsal">
-        <h3>Projeto de Futsal Noturno no Colégio Eron Domingues</h3>
-        <p>
-          À noite, o colégio oferece o projeto de futsal, proporcionando aos
-          alunos uma atividade esportiva após as aulas.
-          <br />Além de ser uma opção de lazer, o futsal noturno promove
-          disciplina, comprometimento e bem-estar físico e mental.
-        </p>
-        <img
-          src="img/imagem_projetos/Simbolo_futsal.png"
-          alt="Simbolo futsal"
-          height="170px"
-        />
-      </div>
-      <!--futsal-->
-      <div class="CELEM">
-        <h3>
-          O CELEM (Certificado de Proficiência em Língua Estrangeira Moderna)
-        </h3>
-        <p>
-          É um exame que avalia a proficiência dos candidatos em línguas
-          estrangeiras, como Libras e Espanhol. No caso de Libras (Língua
-          Brasileira de Sinais), o exame avalia a capacidade do candidato de
-          compreender e se comunicar na língua de sinais utilizada pela
-          comunidade surda. Já o exame de Espanhol avalia a habilidade dos
-          candidatos em compreender, falar, ler e escrever em espanhol, uma
-          língua cada vez mais importante devido à sua relevância global.
-        </p>
-        <img
-          src="img/imagem_projetos/LogoCELEM.webp"
-          alt="Logo do CELEM"
-          height="120px"
-        />
-        <img
-          src="img/imagem_projetos/Simbolo_celem_libras.jpeg"
-          alt="Simbolo CELEM libras"
-          height="120px"
-        />
-        <img
-          src="img/imagem_projetos/bandeira_espanhol.png"
-          alt="Bandeira da espanha representando CELEM espanhol"
-          height="120px"
-        />
-      </div>
-      <!--CELEM-->
-      <div class="Edutec">
-        <h3>Edutec</h3>
-        <p>
-          É um programa educacional que visa promover o uso de tecnologia na
-          educação. Através do Edutec, os alunos têm acesso a recursos
-          tecnológicos avançados, como aplicativos educacionais, plataformas
-          online e ferramentas de ensino digital. Isso permite uma aprendizagem
-          mais interativa, dinâmica e personalizada, que se adapta às
-          necessidades individuais de cada aluno. O Edutec também capacita os
-          professores para integrar a tecnologia em suas práticas pedagógicas,
-          melhorando assim a qualidade do ensino e preparando os alunos para os
-          desafios do século XXI.
-        </p>
-        <img
-          src="img/imagem_projetos/Simbolo_edutec.png"
-          alt="Simbolo Edutec"
-          height="170px"
-        />
-      </div>
-      <!--Edutec-->
-    </div>
-    <!--projetos_escolares_sec-->
-    <div class="desenvolvedor">
-      <h2>Creditos finais</h2>
-      <h3>Desenvolvedor e apoiadores</h3>
-      <p>
-        O aluno Bruno Carletto Adamczyk, do curso TDS (Técnico em
-        Desenvolvimento de Sistemas), foi responsável pela produção do site
-        atualmente utilizado pelos clientes, com o auxílio da professora Erika.
-      </p>
-    </div>
-    <!--desenvolvedor-->
-    <div class="redes_sociais">
-      <div class="texto_redes_sociais">
-        <h3>Redes sociais do colegio</h3>
-        <p>
-          Nas redes sociais, o Colégio Eron Domingues compartilha informaçõesw
-          relevantes sobre notícias e eventos importantes relacionados à escola.
-        </p>
-      </div>
-      <!--texto_redes_sociais-->
-      <div class="facebook">
-        <a href="https://www.facebook.com/cerondomingues"
-          ><p>
-            <img
-              src="img/imagens__Diversas/LogoFacebook.png"
-              alt="Logo do Facebook"
-              height="30px"
-            />
-            : cerondomingues.
-          </p></a
-        >
-      </div>
-      <!--Facebook-->
-      <div class="instagram">
-        <a href="https://www.instagram.com/ce_eron_domingues/">
-          <p>
-            <img
-              src="img/imagens__Diversas/LogoInstagram.jpeg"
-              alt="Logo do Instagram"
-              height="30px"
-            />
-            : ce_eron_domingues.
-          </p></a
-        >
-      </div>
-      <!--instagram-->
-    </div>
-    <!--redes_sociais-->
-  </body>
-  <footer>
-    <img
-      src="img/logoEron-removebg-preview.png"
-      alt="Logo do Eron Domingues"
-      height="70px"
-    />
-    <p>
-      Escola em Marechal Cândido Rondon, Paraná. <br />
-      Endereço: R. Mém de Sá, 1615 - Centro, Mal. Cândido Rondon - PR,
-      85960-000. <br />
-      Telefone: (45) 3254-3229. <br />
-      Horário de funcionamento: <br />
-      Segunda a sábado, das 07:00 às 22:50. <br />
-      Domingo fechado. <br />
-      <span
-        >&copy Eron Domingues - XXXXXXXXXXX - 2024. Todos os direitos
-        reservados.</span
-      ><br />
-      Desenvolvido por Bruno Carletto Adamczyk
-    </p>
-  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
